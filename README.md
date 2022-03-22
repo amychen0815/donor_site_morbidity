@@ -4,7 +4,7 @@ To load the model, run the following in the command line:
 ```
 import pickle
 import pandas as pd
-loaded_model = pickle.load(open(filename, 'rb'))
+loaded_model = pickle.load(open('donorsite_model.sav', 'rb'))
 ```
 where filename is the name of the saved model file
 
