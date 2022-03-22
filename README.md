@@ -8,7 +8,7 @@ import pandas as pd
 loaded_model = pickle.load(open('donorsite_model.sav', 'rb'))
 ```
 
-After loading model, run the following to generate a probability prediction:
+After loading the model, run the following to generate a probability prediction:
 ```
 test = pd.DataFrame({'Age': [num], 'BMI': [num], 'Mean.flap.volume': [num],'length.of.surgery..minutes.':[num]})
 loaded_model.predict_proba(test)
