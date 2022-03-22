@@ -7,9 +7,6 @@ import pickle
 import pandas as pd
 loaded_model = pickle.load(open('donorsite_model.sav', 'rb'))
 ```
-where filename is the name of the saved model file.
-
-
 
 After loading model, run the following to generate a probability prediction:
 ```
