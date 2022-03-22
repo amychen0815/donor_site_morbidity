@@ -2,6 +2,7 @@
 ### Model Starter Code
 To load the model, run the following in the command line:
 ```
+import pickle
 loaded_model = pickle.load(open(filename, 'rb'))
 ```
 where filename is the name of the saved model file
