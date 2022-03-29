@@ -5,6 +5,7 @@ To load the model, run the following in the command line:
 python
 import pickle
 import pandas as pd
+import sklearn
 loaded_model = pickle.load(open('donorsite_model.sav', 'rb'))
 ```
 
